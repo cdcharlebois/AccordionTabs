@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="TabAccordion.widget.TabAccordion" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>TabAccordion</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="breakpoint" type="integer" required="true" defaultValue="640">
+            <caption>Breakpoint Width (pixels)</caption>
+            <category>General</category>
+            <description>The width at which the widget will be rendered as an accordion. (Default is 640).</description>
+        </property>
+        <property key="accordionClass" type="string" required="false" defaultValue="">
+            <caption>Accordion Class To Add</caption>
+            <category>General</category>
+            <description>Class(es) to add when the tabs are rendered as an accordion.</description>
+        </property>
+    </properties>
+</widget>
