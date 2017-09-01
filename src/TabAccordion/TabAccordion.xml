@@ -14,7 +14,7 @@
         <property key="accordionClass" type="string" required="false" defaultValue="">
             <caption>Accordion Class To Add</caption>
             <category>General</category>
-            <description>Class(es) to add when the tabs are rendered as an accordion.</description>
+            <description>Class(es) to add to each tab when the tabs are rendered as an accordion.</description>
         </property>
     </properties>
 </widget>
