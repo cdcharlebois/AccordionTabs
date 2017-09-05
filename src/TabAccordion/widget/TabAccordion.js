@@ -74,6 +74,22 @@ define([
             var cssText = `
                 @media screen and (max-width: ${this.breakpoint}px){
                     #${this.ul.parentElement.id} > ul > li {clear: both; width: 100%;}
+                    .profile-phone #${this.ul.parentElement.id} > ul {
+                        background: none;
+                    }
+                    .profile-phone #${this.ul.parentElement.id} > ul > li {
+                        display: inline-block;
+                    }
+                    .profile-phone #${this.ul.parentElement.id} > ul > li.active >a {
+                        font-weight: bold;
+                    }
+                    .profile-phone #${this.ul.parentElement.id} > ul > li > a {
+                        color: #111;
+                    }
+                    .profile-phone #${this.ul.parentElement.id} > ul > li > a:before,
+                    .profile-phone #${this.ul.parentElement.id} > ul > li > a:after {
+                        border: none !important;
+                    }
                 }        
             `;
             var css = document.createElement("style");
